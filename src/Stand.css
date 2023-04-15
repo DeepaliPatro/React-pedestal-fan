@@ -1,0 +1,36 @@
+.stem {
+    width: 22px;
+    height: 200px;
+    background-color: silver;
+    margin: auto;
+    transform:translateY(299px);
+}
+
+.switch {
+    height: 15px;
+    width: 15px;
+    padding: 0;
+    background-color: black;
+    transform: translateY(40px);
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px  seagreen;
+    margin-bottom: 5px;
+}
+
+.switch:active {
+    box-shadow: none;
+    transform: translateY(43px);
+}
+
+.base {
+    width: 150px;
+    height: 20px;
+    background-color: silver;
+    transform:translateY(299px);
+    border-radius: 7px 7px 0 0;
+}

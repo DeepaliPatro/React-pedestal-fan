@@ -1,0 +1,38 @@
+.fan{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.paused{
+    animation: spinDown 1.5s ease-out both;
+}
+
+.low{
+    animation: spin 1s linear infinite;
+}
+
+.medium{
+    animation: spin 0.7s linear infinite;
+}
+
+.high{
+    animation: spin 0.3s linear infinite;
+}
+  
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+@keyframes spinDown {
+    0% {
+      transform:rotate(-360deg);
+    }
+    100% {
+      transform:rotate(0deg);
+    }
+}

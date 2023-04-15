@@ -1,0 +1,30 @@
+.head{
+    position: absolute;
+}
+
+svg {
+    border-radius: 150px;
+}
+  
+.cover {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    border: 5px solid silver;
+    z-index:10;
+    background-image: 
+      radial-gradient(circle, gray 0, silver 18px,
+        silver 20px, silver 7%, transparent 7%,
+        transparent 20%, silver 20%, silver 22%, transparent 22%,
+        transparent 38%, silver 38%, silver 40%, transparent 40%,
+        transparent 55%, silver 55%, silver 57%, transparent 57%
+      ),
+      linear-gradient(0deg, transparent 49.3%, silver 49.3% 50.7%, transparent 50.7%),  
+      linear-gradient(45deg, transparent 49.5%, silver 49.5% 50.5%, transparent 50.5%),  
+      linear-gradient(-45deg, transparent 49.5%, silver 49.5% 50.5%, transparent 50.5%),  
+      linear-gradient(90deg, transparent 49.3%, silver 49.3% 50.7%, transparent 50.7%)
+    ;  
+}

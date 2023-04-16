@@ -1,5 +1,6 @@
-# Getting Started with Create React App
+# Beat the heat:
+
+![Pedestal Fan](./public/fanInAction.gif)
 
 
-
-### Check this out [here](https://deepalipatro.github.io/React-pedestal-fan/)
+<!-- ### Check this out [here](https://deepalipatro.github.io/React-pedestal-fan/) -->

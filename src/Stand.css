@@ -20,6 +20,7 @@
     border-radius: 15px;
     box-shadow: 0 3px  seagreen;
     margin-bottom: 5px;
+    cursor: pointer;
 }
 
 .switch:active {

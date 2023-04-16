@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-pedestal-fan/static/css/main.5fba4894.css",
+    "main.js": "/React-pedestal-fan/static/js/main.2fb6107c.js",
+    "index.html": "/React-pedestal-fan/index.html",
+    "main.5fba4894.css.map": "/React-pedestal-fan/static/css/main.5fba4894.css.map",
+    "main.2fb6107c.js.map": "/React-pedestal-fan/static/js/main.2fb6107c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fba4894.css",
+    "static/js/main.2fb6107c.js"
+  ]
+}
